@@ -1,30 +1,30 @@
 class Drudgetea < Formula
   desc "Bubble Tea TUI for Drudge Report"
   homepage "https://github.com/mikegetz/drudgetea"
-  version "1.2.11"
+  version "1.2.12"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/mikegetz/drudgetea/releases/download/v1.2.11/drudgetea-v1.2.11-darwin-amd64"
-      sha256 "02e3eae8327b79e01a5ba3ea657308dc3d723135059769b72a03e988ed9a7dd8"
+      url "https://github.com/mikegetz/drudgetea/releases/download/v1.2.12/drudgetea-v1.2.12-darwin-amd64"
+      sha256 "89e73ab0631de66d59269d7dac92bc5c37f8f96785aa739d0a6eba16be21bd6f"
     end
 
     on_arm do
-      url "https://github.com/mikegetz/drudgetea/releases/download/v1.2.11/drudgetea-v1.2.11-darwin-arm64"
-      sha256 "8bb3327305b99d85621fb6146438d2b634d322654c500a083ad3a0cdb6e2cb51"
+      url "https://github.com/mikegetz/drudgetea/releases/download/v1.2.12/drudgetea-v1.2.12-darwin-arm64"
+      sha256 "f90f510f4c345877db3541fa64690db6b5885095dfccbba0a78a2b255fea3e9b"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/mikegetz/drudgetea/releases/download/v1.2.11/drudgetea-v1.2.11-linux-amd64"
-      sha256 "155244541f64e04db49be92e292afba234837284d90d4df4a7baa64d95209dc2"
+      url "https://github.com/mikegetz/drudgetea/releases/download/v1.2.12/drudgetea-v1.2.12-linux-amd64"
+      sha256 "4d36154eed1a96d5f6f9334f705a7400d5e7d8b92e1bed6e137cd61276a0f1fd"
     end
 
     on_arm do
-      url "https://github.com/mikegetz/drudgetea/releases/download/v1.2.11/drudgetea-v1.2.11-linux-arm64"
-      sha256 "a4ad2863675b772528b4fb12613f9a57e77cc2d9b5f820e2edd0177282b66159"
+      url "https://github.com/mikegetz/drudgetea/releases/download/v1.2.12/drudgetea-v1.2.12-linux-arm64"
+      sha256 "71c6f89e3c3da86eb673460fa6d2597982716f5d7eaf3d4a019179ebfc8eec17"
     end
   end
 
